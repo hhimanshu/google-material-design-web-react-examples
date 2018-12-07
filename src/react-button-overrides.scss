@@ -1,0 +1,7 @@
+@import "@material/button/mixins";
+
+.button-alternate {
+  @include mdc-button-container-fill-color(#38527C);
+  @include mdc-button-ink-color(yellow);
+  @include mdc-button-shape-radius(12, true);
+}
